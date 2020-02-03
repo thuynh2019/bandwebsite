@@ -68,3 +68,89 @@
         display: block;
         max-width: 100%;
       }
+
+      /* Tour css */
+      table {
+        width: 400px;
+        /*border-spacing: 40px;*/
+      }
+
+      caption {
+      font-size: 50px;
+      font-family: 'Open Sans', sans-serif;
+      }
+
+      th{
+        text-align: left;
+      }
+
+      caption, table, th, td {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      table, th, td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+      }
+
+      th, td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #fff;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #5F9EA0;
+      }
+
+      /* Form css */
+      p {
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+      }
+
+      form {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      input {
+        width: 100px;
+      }
+
+      textarea {
+        resize: vertical;
+        max-height: 150px;
+      }
+
+      input, textarea {
+        outline: none;
+        border: 1px solid #ddd;
+      }
+
+      input:focus, textarea:focus {
+        box-shadow: 0 0 4px rgba(255, 0, 0, 0.5);
+        border: 1px solid rgb(255, 0, 0);
+      }
+
+      ::placeholder {
+        color: #dd;
+        opacity: 10;
+      }
+
+      :-ms-input-placeholder {
+        color: #fff;
+      }
+
+      ::-ms-input-placeholder {
+        color: #ddd;
+        opacity: 10;
+      }
