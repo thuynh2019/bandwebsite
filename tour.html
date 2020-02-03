@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Warpaint Band Page</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <style>
+    html {
+      font-family: 'Open Sans', sans-serif;
+      background: url(images/pattern.png);
+    }
+
+    body {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: white;
+      position: relative;
+    }
+
+    header {
+      height: 150px;
+    }
+
+    header img {
+      width: 100px;
+      position: absolute;
+      right: 32.5px;
+      top: 32.5px;
+    }
+
+    h1 {
+      font-size: 50px;
+      line-height: 140px;
+      margin: 0 0 0 32.5px;
+    }
+
+    /* main section and video styling */
+    main {
+      background: #ccc;
+    }
+
+    article {
+      padding: 20px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    p {
+      line-height: 2;
+    }
+
+    iframe {
+      float: left;
+      margin: 0 20px 20px 0;
+      max-width: 100%;
+    }
+
+    /* further info links */
+    .further-info {
+      clear: left;
+      padding: 40px 0;
+      background: #c13832;
+      box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.5),
+        inset 0 -3px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .further-info a {
+      width: 30%;
+      padding: 0 1%;
+      display: block;
+      float: left;
+    }
+
+    .further-info img {
+      max-width: 100%;
+    }
+
+    .clearfix {
+      clear: both;
+    }
+
+    /* Red panda image */
+    .closing-image img {
+      display: block;
+      max-width: 100%;
+    }
+
+    table {
+      width: 400px;
+      /*border-spacing: 40px;*/
+    }
+
+    caption {
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+    th{
+      text-align: left;
+    }
+
+    caption, table, th, td {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    table, th, td {
+      border: 1px solid #000;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #000;
+      border-collapse: collapse;
+      padding: 10px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fff;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #5F9EA0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>WARPAINT</h1>
+    <img src="images/warpaintlogo.png" alt="Warpaint's logo">
+
+  </header>
+
+  <main>
+    <article>
+        <table>
+          <caption>TOUR DATES</caption>
+          <tr>
+            <th>Dates:</th>
+            <th>Venues:</th>
+            <th>Locations:</th>
+          </tr>
+          <tr>
+            <td>Feb 25 Tue</td>
+            <td>Bottom of the Hill</td>
+            <td>San Francisco, CA</td>
+          <tr>
+            <td>Mar 6 Fri</td>
+            <td>The Novo</td>
+            <td>Los Angeles, CA</td>
+          </tr>
+          <tr>
+            <td>Mar 13 Fri</td>
+            <td>The Getty</td>
+            <td>Los Angeles, CA</td>
+          </tr>
+          <tr>
+            <td>Mar 20 Fri</td>
+            <td>Brick By Brick</td>
+            <td>San Diego, CA</td>
+          </tr>
+        </table>
+    </article>
+
+    <div class="further-info">
+
+      <figure>
+        <a href="https://www.warpaintwarpaint.com/">
+          <img src="images/warpaintalbum.jpg" alt="Warpaint's Album Cover">
+          <figcaption>About us.</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="tour.html">
+          <img src="images/warpaintbw.jpg" alt="Warpaint's Members in shadow silhouette">
+          <figcaption>Tour Dates</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="tour.html">
+          <img src="images/warpaintbuilding.jpg" alt="Warpaint band member in front of buildings">
+          <figcaption>Join The Fan Club!</figcaption>
+        </a>
+      </figure>
+
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="closing-image">
+      <picture>
+        <source media="(max-width: 799px)" srcset="images/warpaint-400.jpg">
+        <source media="(min-width: 800px)" srcset="images/warpaint_1200.jpg">
+        <img src="images/warpaint_1200.jpg" alt="Closeup of Warpaint band members in front of white background">
+      </picture>
+    </div>
+
+  </main>
+</body>
+
+</html>
